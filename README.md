@@ -23,9 +23,16 @@ Follow the steps below to run the project locally:
    ```bash
    npm install
 
+3. Create a `.env` file in the project root and fill it as per the example in `.env.example`:
+   ```bash
+   VITE_API_KEY=your_api_key_TMDB
+   VITE_API=https://api.themoviedb.org/3/movie/
+   VITE_SEARCH=https://api.themoviedb.org/3/search/movie
+   VITE_IMG=https://image.tmdb.org/t/p/w500/
+   
 ## Start
 
 1. Run to start the project:
 
    ```bash
-   npm install
+   npm start
