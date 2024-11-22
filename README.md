@@ -7,7 +7,7 @@ CineLog is a movie catalog application built with React and TypeScript. It allow
 - React
 - TypeScript
 - Vite (build tool)
-- TMDb API
+- TMDB API
 
 ## Installation
 
