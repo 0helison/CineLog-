@@ -1,0 +1,68 @@
+.container .title {
+    color:rgb(31, 111, 186);
+    font-size: 2.5em;
+    text-align: center;
+    margin: 2rem 0 1rem;
+}
+
+.title .query-text {
+    color:rgb(16, 87, 154);
+    font-weight: bold;
+    text-decoration: underline;
+
+}
+
+.movies-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 3rem;
+}
+
+.movies-container div {
+    width: 30%;
+    color: black;
+    margin-bottom: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgb(30, 112, 188);
+    padding: 1rem;
+    border-radius: 2px;
+}
+
+.movies-container div img {
+    max-width: 100%;
+    border-radius: 2px;
+}
+
+.movies-container div img,
+.movies-container div h2,
+.movies-container div h5 {
+    margin-bottom: 1rem;
+}
+
+.movies-container div svg {
+    color: #f7d354;
+}
+
+.movies-container div a {
+    background-color: rgb(202, 230, 255);
+    border: 2px solid rgb(10, 68, 123);
+    border-radius: 4px;
+    padding: 1rem 0.5rem;
+    text-align: center;
+    align-items: center;
+    font-weight: bold;
+    color:rgb(10, 88, 161);
+    text-decoration: none;
+    transition: .5s;
+}
+
+.movies-container div a:hover {
+    background-color: rgb(31, 111, 186);
+    border: 2px solid rgb(202, 230, 255);
+    color: rgb(202, 230, 255);
+}
